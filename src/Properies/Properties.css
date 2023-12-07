@@ -1,0 +1,84 @@
+.properties h1 {
+    color: #185e91;
+    font-size: 85px;
+    position: relative;
+    width: 800px;
+    left: 450px;
+}
+
+.properties p {
+    color: #7e7d7b;
+    position: relative;
+    left: 455px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    width: 1500px;
+    bottom: 30px;
+}
+
+.hr1 {
+    height: 5px;
+    position: relative;
+    top: 55px;
+    background-color: #185e91;
+    width: 1700px;
+}
+
+.offer {
+    position: relative;
+    top: 50px;
+}
+
+.offer h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #7e7d7b;
+}
+
+.offer_p1 {
+    position: relative;
+    width: 1500px;
+    left: 350px;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: #a8a7a4;
+}
+
+@media only screen and (max-width:1000px) {
+    .cards1 {
+        width: 1500px;
+    }
+    .hr1 {
+        height: 5px;
+        position: relative;
+        left: 350px;
+        top: 55px;
+        background-color: #185e91;
+        width: 1000px;
+    }
+    .offer {
+        position: relative;
+        left: 208px;
+        top: 50px;
+    }
+    .offer h2 {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 40px;
+        color: #7e7d7b;
+        width: 1000px;
+    }
+    .offer_p1 {
+        position: relative;
+         width: 600px;
+        font-size: 30px;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        color: #a8a7a4;
+    }
+    
+}

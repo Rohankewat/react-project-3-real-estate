@@ -1,0 +1,87 @@
+.home_main_container {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+
+
+.contacts h1 {
+    top: 50px;
+    left: 250px;
+    width: 300px;
+    font-size: 50px;
+    position: relative;
+    color: #a8a7a4;
+    font-family: serif;
+}
+
+.phone {
+    position: relative;
+    left: 250px;
+    top: 70px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #185e91;
+    width: 500px;
+}
+
+pre {
+    color: #7e7d7b;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.company {
+    position: relative;
+    bottom: 85px;
+    left: 1150px;
+    font-weight: bold;
+    width: 300px;
+    font-size: 35px;
+    color: #185e91;
+}
+
+.contacts .p1 {
+    position: relative;
+    color: #7e7d7b;
+    width: 700px;
+    bottom: 90px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    left: 1150px;
+}
+
+.address {
+    position: relative;
+    left: 250px;
+    font-weight: bold;
+    bottom: 110px;
+    width: 300px;
+    font-size: 35px;
+    color: #185e91;
+}
+
+@media only screen and (max-width:1000px) {
+    .home_main_container {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        width: 1980px;
+    }
+    .carousel_1 {
+        width: 1980px;
+    }
+    .contacts .p1 {
+        position: relative;
+        color: #7e7d7b;
+        width: 450px;
+        bottom: 850px;
+        letter-spacing: 1px;
+        font-size: 30px;
+        left: 1000px;
+    }
+    
+    
+}

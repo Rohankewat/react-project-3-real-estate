@@ -1,0 +1,68 @@
+.cards_main {
+    position: relative;
+    left: 50px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 930px;
+    display: inline-block;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.cards_main img {
+    height: 400px;
+    width: 600px;
+    border-radius: 12px;
+}
+
+.cards_main hr {
+    position: relative;
+    top: 10px;
+    height: 8px;
+    border: 1px solid #fe59ae;
+    background-color: #fe59ae;
+}
+
+.cards_main h2 {
+    display: flex;
+    color: #185e91;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.loc_p1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #767676;
+}
+
+.dis_p1 {
+    position: relative;
+    left: 55px;
+    flex-wrap: wrap;
+    width: 500px;
+    font-family: sans-serif;
+    color: #a8a7a4;
+    font-size: 30px;
+}
+
+.cards_main button {
+    background-color: #007bff;
+    padding: 20px;
+    border: 0px;
+    position: relative;
+    left: 200px;
+    width: 150px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #fe59ae;
+}

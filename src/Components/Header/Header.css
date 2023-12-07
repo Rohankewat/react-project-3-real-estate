@@ -1,0 +1,33 @@
+.header {
+    background-color: #185e91;
+    height: 150px;
+
+}
+
+.link1,
+.link2,
+.link3,
+.link4,
+.link5,
+.link6 {
+    position: relative;
+    top: 65px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 70px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1000px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        background-color: #185e91;
+        height: 150px;
+        width: 1980px;
+    
+    }
+    
+}

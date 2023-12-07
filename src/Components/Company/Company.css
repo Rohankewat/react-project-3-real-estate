@@ -1,0 +1,74 @@
+.company_discription h1 {
+    color: #185e91;
+    font-size: 85px;
+    position: relative;
+    width: 800px;
+    left: 450px;
+}
+
+.company_discription .p1 {
+    position: relative;
+    left: 305px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    width: 1500px;
+    color: #767676;
+    font-weight: bold;
+    bottom: 30px;
+}
+
+.company_discription .p2 {
+    position: relative;
+    left: 305px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    width: 1500px;
+    color: #a8a7a4;
+    font-weight: bold;
+    bottom: 30px;
+}
+
+.carousel2 {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel2 img {
+    position: relative;
+    top: 25px;
+    width: 400px;
+}
+
+@media only screen and (max-width:1000px) {
+    .company_discription .p1 {
+        position: relative;
+        left: 305px;
+        font-size: 35px;
+        letter-spacing: 1px;
+        width: 1200px;
+        color: #767676;
+        font-weight: bold;
+        bottom: 30px;
+    }
+    .company_discription .p2 {
+        position: relative;
+        left: 305px;
+        font-size: 35px;
+        letter-spacing: 1px;
+        width: 1200px;
+        color: #a8a7a4;
+        font-weight: bold;
+        bottom: 30px;
+    }
+    .carousel2 {
+        position: relative;
+        left: 650px;
+        display: flex;
+        justify-content: center;
+    }
+    .carousel2 img {
+        position: relative;
+        top: 80px;
+        width: 400px;
+    }
+}

@@ -1,0 +1,261 @@
+.get_in_touch {
+    position: relative;
+    top: 20px; 
+    background-image: linear-gradient(rgba(0, 0, 0.4, 0.5), rgba(0, 0, 0.4, 0.2)), url("./contact-but.jpg");
+    height: 1150px;
+    background-size: cover;
+}
+
+.get_in_touch .h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    top: 150px;
+}
+
+.get_in_touch .p1 {
+    color: white;
+    position: relative;
+    top: 125px;
+    font-family: serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    display: flex;
+    font-weight: lighter;
+    justify-content: center;
+}
+
+.form1 {
+    position: relative;
+    top: 200px;
+}
+
+.form1 .label1 {
+    position: relative;
+    color: white;
+    font-size: 32px;
+    left: 380px;
+    font-family: sans-serif;
+}
+
+#id1 {
+    position: relative;
+    left: 350px;
+    padding: 40px;
+    height: 27px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 20px;
+    box-shadow: rgb(80, 75, 75) 0px 4px 12px;
+}
+
+.form1 .label2 {
+    position: relative;
+    color: white;
+    bottom: 75px;
+    font-size: 32px;
+    left: 520px;
+    font-family: sans-serif;
+}
+
+#id2 {
+    position: relative;
+    left: 850px;
+    padding: 40px;
+    height: 27px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 20px;
+    bottom: 130px;
+    box-shadow: rgb(80, 75, 75) 0px 4px 12px;
+}
+
+.form1 .label3 {
+    position: relative;
+    color: white;
+    bottom: 205px;
+    font-size: 32px;
+    left: 980px;
+    font-family: sans-serif;
+}
+
+
+#id3 {
+    position: relative;
+    left: 1320px;
+    padding: 40px;
+    height: 27px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 20px;
+    bottom: 260px;
+    box-shadow: rgb(80, 75, 75) 0px 4px 12px;
+}
+
+.form1 .label4 {
+    position: relative;
+    color: white;
+    bottom: 140px;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+#id4 {
+    position: relative;
+    left: 350px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 20px;
+    bottom: 180px;
+    box-shadow: rgb(80, 75, 75) 0px 4px 12px;
+}
+
+.button2 {
+    position: relative;
+    bottom: 110px;
+    border: 1px solid #007bff;
+    right: 380px;
+    padding: 27px;
+    width: 250px;
+    color: white;
+    font-size: 30px;
+    background-color: #007bff;
+}
+
+@media only screen and (max-width:1000px) {
+    .get_in_touch {
+        width: 1980px;
+        position: relative;
+        top: 20px; 
+        background-image: linear-gradient(rgba(0, 0, 0.4, 0.5), rgba(0, 0, 0.4, 0.2)), url("./contact-but.jpg");
+        height: 1150px;
+        background-color: black;
+        background-size: cover;
+    }
+    .get_in_touch .h1 {
+        position: relative;
+        right: 200px;
+        display: flex;
+        justify-content: center;
+        font-size: 80px;
+        font-weight: bold;
+        color: white;
+        top: 150px;
+    }
+    .get_in_touch .p1 {
+        color: white;
+        position: relative;
+        left: 350px;
+        width: 1100px;
+        top: 125px;
+        font-family: serif;
+        font-size: 35px;
+        letter-spacing: 1px;
+        display: flex;
+        font-weight: lighter;
+        justify-content: center;
+    }
+    .form1 .label1 {
+        position: relative;
+        color: white;
+        font-size: 32px;
+        left: 220px;
+        font-family: sans-serif;
+    }
+    #id1 {
+        position: relative;
+        left: 200px;
+        padding: 40px;
+        height: 27px;
+        width: 250px;
+        margin: 10px;
+        border-radius: 15px;
+        border: 1px solid white;
+        font-size: 20px;
+        box-shadow: rgb(80, 75, 75) 0px 4px 12px;
+    }
+    .form1 .label2 {
+        position: relative;
+        color: white;
+        bottom: 75px;
+        font-size: 32px;
+        left: 350px;
+        font-family: sans-serif;
+    }
+    #id2 {
+        position: relative;
+        left: 680px;
+        padding: 40px;
+        height: 27px;
+        width: 250px;
+        margin: 10px;
+        border-radius: 15px;
+        border: 1px solid white;
+        font-size: 20px;
+        bottom: 130px;
+        box-shadow: rgb(80, 75, 75) 0px 4px 12px;
+    }
+    .form1 .label3 {
+        position: relative;
+        color: white;
+        bottom: 205px;
+        font-size: 32px;
+        left: 810px;
+        font-family: sans-serif;
+    }
+    #id3 {
+        position: relative;
+        left: 1090px;
+        padding: 40px;
+        height: 27px;
+        width: 250px;
+        margin: 10px;
+        border-radius: 15px;
+        border: 1px solid white;
+        font-size: 20px;
+        bottom: 260px;
+        box-shadow: rgb(80, 75, 75) 0px 4px 12px;
+    }
+
+    .form1 .label4 {
+        position: relative;
+        right: 100px;
+        color: white;
+        bottom: 140px;
+        font-size: 32px;
+        font-family: sans-serif;
+    }
+    #id4 {
+        position: relative;
+        left: 150px;
+        margin: 10px;
+        border-radius: 15px;
+        border: 1px solid white;
+        font-size: 20px;
+        bottom: 180px;
+        box-shadow: rgb(80, 75, 75) 0px 4px 12px;
+    }
+    .button2 {
+        position: relative;
+        bottom: 110px;
+        border: 1px solid #007bff;
+        right: 600px;
+        padding: 27px;
+        width: 250px;
+        color: white;
+        font-size: 30px;
+        background-color: #007bff;
+    }
+    
+    
+}
